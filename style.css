@@ -104,11 +104,17 @@
   }
   /* img */
   .imgArea {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+  }
+  .imgArea img{
+    width: 250px;
     border-radius: 50%;
-    background: url("img/1.jpg");
-    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
   }
   /* Setcion */
   .section {
